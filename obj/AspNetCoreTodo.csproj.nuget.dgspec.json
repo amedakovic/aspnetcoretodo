@@ -1,0 +1,89 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/aleksa/Documents/AspNetCoreTodo/AspNetCoreTodo.csproj": {}
+  },
+  "projects": {
+    "/home/aleksa/Documents/AspNetCoreTodo/AspNetCoreTodo.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/aleksa/Documents/AspNetCoreTodo/AspNetCoreTodo.csproj",
+        "projectName": "AspNetCoreTodo",
+        "projectPath": "/home/aleksa/Documents/AspNetCoreTodo/AspNetCoreTodo.csproj",
+        "packagesPath": "/home/aleksa/.nuget/packages/",
+        "outputPath": "/home/aleksa/Documents/AspNetCoreTodo/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/aleksa/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Humanizer": {
+              "target": "Package",
+              "version": "[2.14.1, )"
+            },
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/6.0.108/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
